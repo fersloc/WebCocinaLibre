@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <title>Tortas Veganas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+
+<body id="contacto">
+
+
+    <header>
+        <div class="secondaryMenu">
+            <ul>
+                <a href="https://www.facebook.com/librecocinalibre" target="_blank">
+                    <li> <i class="fab fa-facebook"></i> Facebook </li>
+                </a>
+                <a href="https://www.instagram.com/librecocinalibre/" target="_blank">
+                    <li> <i class="fab fa-instagram"></i> Instagram </li>
+                </a>
+                <a href="#">
+                    <li> <i class="fas fa-phone"></i> +56 98776 6475 </li>
+                </a>
+            </ul>
+
+            <p>Delicias dulces para el alma ¡atrévete a probar!</p>
+        </div>
+        
+        <div class="logo animate__animated animate__fadeIn"> <a href="../index.html"><img src="../media/img/logB.png" alt="logo a color" width="140" height="149"></a>
+        </div>
+        
+        <nav class="menuPrincipal">
+            <div>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="somos.html">Somos</a></li>
+                    <li><a href="productos2.html">Productos</a></li>
+                    <li><a href="como-comprar.html">Como Comprar</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="contenido animate__animated animate__fadeIn">
+        <h1 class="titulopag">Quieres Tortas🎂? Contáctanos</h1>
+        <div>
+            <!-- INICIO -->
+            <form id="form1" action="contacto.html" method="GET">
+                <label for="Nombre"> Nombre </label>
+                <input type="text" name="Nombre" placeholder="Escribe tu Nombre">
+                
+                <label for="Apellido"> Apellido </label>
+                <input type="text" name="Apellido" text="escribe tu apellido porfavors" placeholder="Escribe tu Apellido">
+
+                <label for="email"> Email </label>
+                <input type="email" name="Email" text="escribe tu email porfavors" placeholder="Escribe tu Email">
+
+                <label for="Productos"> Te gustaría información de: </label>
+                
+                <input type="checkbox" name="torta1" value="torta">
+                <label for="torta1">Tortas</label>
+                <input type="checkbox" name="torta2" value="torta">
+                <label for="torta2">Tartas </label>
+                <input type="checkbox" name="torta3" value="torta">
+                <label for="torta3">Galletas</label>
+                <div class="Delivery">
+                <label for="Delivery"> Te gustaría que te entreguemos: </label>
+                <select name="Delivery">
+                    <option value="Casa">En tu dirección</option>
+                    <option value="Tienda">Pasar a buscarla</option>
+                </select>
+                </div>
+                <label for="Comentarios"> Comentarios </label>
+                <textarea name="Comentarios" rows="4" cols="40" placeholder="Cuentanos lo que deseas"></textarea>
+
+                <input type="submit" name="Enviar">
+
+                <input type="reset" name="reset" text="Comenzar denuevo">
+            </form>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footerA"><img id="logofooter" src="../media/img/logA.png" alt="logo a color" width="auto" height="96">
+        </div>
+        <div class="footerB">
+            <p>Reposteria Vegana llena de cariño y sueños de libertad <i class="fas fa-heart"></i></p>
+        </div>
+        <div class="footerC">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="somos.html">Somos</a></li>
+                <li><a href="productos2.html">Productos</a></li>
+                <li><a href="como-comprar.html">Como Comprar</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="https://www.instagram.com/librecocinalibre/" target="_blank"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/librecocinalibre" target="_blank"> <i class="fab fa-facebook"></i></a></li>
+            </ul>
+        </div>
+        <div class="footerBar"><p> Hecho por <a href="https://rapasio.tumblr.com/" target="_blank" style="font-weight: bold;">Fersloc</a></p>
+        </div>
+    </div>
+
+<script src="assets/js/wow.min.js"></script>
+<script>new WOW().init();</script>
+</body>
+
+</html>
