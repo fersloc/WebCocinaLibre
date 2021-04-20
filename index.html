@@ -1,206 +1,392 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tortas Veganas</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-</head>
+    <!--
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Rubik"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
 
-<body id="index">
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/nuevas.css" />
+  </head>
+
+  <body id="index">
     <header>
-        <div class="secondaryMenu">
-            <ul>
-                <a href="https://www.facebook.com/librecocinalibre" target="_blank">
-                    <li> <i class="fab fa-facebook"></i> Facebook </li>
-                </a>
-                <a href="https://www.instagram.com/librecocinalibre/" target="_blank">
-                    <li> <i class="fab fa-instagram"></i> Instagram </li>
-                </a>
-                <a href="#">
-                    <li> <i class="fas fa-phone"></i> +56 98776 6475 </li>
-                </a>
-            </ul>
+      <!--secondaryMenu-->
+      <div class="secondaryMenu">
+        <ul>
+          <a href="https://www.facebook.com/librecocinalibre" target="_blank">
+            <li><i class="fab fa-facebook"></i> Facebook</li>
+          </a>
+          <a href="https://www.instagram.com/librecocinalibre/" target="_blank">
+            <li><i class="fab fa-instagram"></i> Instagram</li>
+          </a>
+          <a href="#">
+            <li><i class="fas fa-phone"></i> +56 98776 6475</li>
+          </a>
+        </ul>
 
-            <p>Delicias dulces para el alma ¡atrévete a probar!</p>
+        <p>Delicias dulces para el alma ¡atrévete a probar!</p>
+      </div>
+      <!--secondaryMenu off-->
+
+      <!--Menu-->
+      <div class="container">
+        <div class="row">
+          <div class="col"></div>
         </div>
-        
-        <div class="logo animate__animated animate__fadeInLeft"> <a href="index.html"><img src="media/img/logB.png" alt="logo a color" width="140" height="149"></a>
+      </div>
+      <div class="container">
+        <div class="container logo animate__animated animate__fadeInLeft">
+          <a
+            href="#"
+            class="d-flex col-12 align-items-center justify-content-center mb-3 mb-lg-3 text-white text-decoration-none"
+          >
+            <img width="140px" src="./media/img/logB.png" alt="" />
+          </a>
         </div>
-        
-        <nav class="menuPrincipal">
-            <div>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="pages/somos.html">Somos</a></li>
-                    <li><a href="pages/productos2.html">Productos</a></li>
-                    <li><a href="pages/como-comprar.html">Como Comprar</a></li>
-                    <li><a href="pages/contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-        </nav>
+
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <ul class="nav col-12 mb-0 justify-content-center mb-md-0">
+            <li>
+              <a
+                href="index.html"
+                class="nav-link px-2 border border-white border-3 rounded-pill botonNav text-center mb-3 mx-1"
+                >Inicio</a
+              >
+            </li>
+            <li>
+              <a
+                href="./pages/somos.html"
+                class="nav-link px-2 border border-white border-3 rounded-pill botonNav text-center mb-3 mx-1"
+                >Somos</a
+              >
+            </li>
+            <li>
+              <a
+                href="./pages/productos2.html"
+                class="nav-link px-2 border border-white border-3 rounded-pill botonNav text-center mb-3 mx-1"
+                >Productos</a
+              >
+            </li>
+            <li>
+              <a
+                href="./pages/como-comprar.html"
+                class="nav-link px-2 border border-white border-3 rounded-pill botonNav text-center mb-3 mx-1"
+                >Cómo Comprar</a
+              >
+            </li>
+            <li>
+              <a
+                href="./pages/contacto.html"
+                class="nav-link px-2 border border-white border-3 rounded-pill botonNav text-center mb-3 mx-1"
+                >Contáctanos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Menu off-->
     </header>
+
+    <!-- inicio contenido  -->
+    <main class="contenido bg-transparent">
+      <!--Carrusel bootstrap-->
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner rounded rounded-3">
+          <div class="carousel-item active">
+            <img src="./media/img/hero3.jpg" alt="" />
+
+            <div class="container">
+              <div class="carousel-caption bg-success px-3 pt-4">
+                <h1>Solucionado el estiramiento de las fotos</h1>
+                <p class="text-white-50">
+                  Some representative placeholder content for the first slide of
+                  the carousel.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-light text-success" href="#"
+                    >Te gusta?</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="./media/img/hero6.jpg" alt="" />
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Las esuinas tienen rounded, pero muy pequeño</h1>
+                <p class="text-white-50">
+                  Some representative placeholder content for the second slide
+                  of the carousel.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#"
+                    >Como cambiar el color?</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <rect width="100%" height="100%" fill="secondary" />
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Este es el verde de la propuesta orignal</h1>
+                <p class="text-white-50">
+                  Some representative placeholder content for the third slide of
+                  this carousel.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--Carrusel bootstrap off-->
     
-<!-- inicio contenido  -->
-    <div class="contenido">
+      
+
+      <div class="container marketing mt-5 ">
+              
+        <!-- Three columns of text below the carousel -->
+        <div class="row ">
+          <div class="col-12 col-sm-6 col-lg-3  ">
+            
+            <img src="./media/img/textura (1).jpg" alt="Tortas"  class="img-fluid rounded rounded-5 p-3">  
+            <h2>Tortas</h2>            
+            <p class="d-flex justify-content-center"><a class="btn btn-light text-success " href="#">Ver más</a></p>
+          </div><!-- /.col-lg-3 -->
+
+
+
+          <div class="col-12 col-sm-6 col-lg-3 ">
+
+            <img src="./media/img/textura (2).jpg" alt="tartas" class="img-fluid rounded rounded-5 p-3">
+            <h2>Tartas</h2>            
+            <p class="d-flex justify-content-center"><a class="btn btn-light text-success" href="#">Ver más</a></p>
+          </div><!-- /.col-lg-3 -->
+
+
+
+          <div class="col-12 col-sm-6 col-lg-3">            
+            <img src="./media/img/textura (3).jpg" alt="Galletas" class="img-fluid rounded rounded-5 p-3">    
+            <h2>Galletas</h2>            
+            <p class="d-flex justify-content-center"><a class="btn btn-light text-success" href="#">Ver más</a></p>
+          </div><!-- /.col-lg-3 -->
+
+
+          
+          <div class="col-12 col-sm-6 col-lg-3">
+            
+            <img src="./media/img/textura (4).jpg" alt="Galletas" class="img-fluid rounded rounded-5 p-3">    
+            <h2>Otros</h2>            
+            <p class="d-flex justify-content-center"><a class="btn btn-light text-success" href="#">Ver más</a></p>
+          </div><!-- /.col-lg-3 -->
+        </div><!-- /.row -->
         
-<!-- inicio hero  -->
-        <div class="hero__image ">
-            <div class="hero__text ">
-                <h1>Repostería Artesanal 100% basada en plantas</h1>
-            </div>
+    
+    
+        <!-- START THE FEATURETTES -->
+    
+        <hr class="featurette-divider bg-white my-5 ">
+    
+        <div class="row featurette ">
+          <div class="col-md-7">
+            <h2 class="featurette-heading text-start text-white-50" >Delicioso chocolate vegano <span class="text-white">sin gluten y 60% de cacao.</span></h2>
+            <p class="lead"></p>
+          </div>
+          <div class="col-md-5">
+            <img src="./media/img/textura (3).jpg" alt="" class="img-fluid rounded rounded-5 ">
+    
+          </div>
         </div>
+    
+        <hr class="featurette-divider bg-white">
+    
+        
+        <!-- otro featurettes numeros antes en svg ahora imagenes-->
+        
+        <div class="row  my-5">
+          <div class="col-12 col-md-4 col-lg-4 ">
 
-<!-- inicio cajaGridIndex  -->
-<!-- inicio muestra productos "contenidoFlex  -->
-        <div class="contenidoFlex">
-            
-            <div class="card" style="background-image:url(media/img/textura-08.png);">
+            <h2>Colaciones y Sorpresas</h2>
+            <img src="./media/img/somos1.jpg" alt="Tortas"  class="img-fluid rounded-circle p-3"> 
+            <p class="text-white text-center">Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+            <hr class="featurette-divider bg-white mt-0 mb-4">
+          </div><!-- /.col-lg-4 -->
+          
+          <div class="col-12 col-md-4 col-lg-4 ">
 
-                <div class="card__body">
-                    <h2 class="card__title">Tortas</h2>
+            <h2>Dulces Crudiveganos</h2>
+            <img src="./media/img/somos1.jpg" alt="Tortas"  class="img-fluid rounded-circle p-3"> 
+            <p class="text-white text-center">Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+            <hr class="featurette-divider bg-white mt-0 mb-4">
+          </div><!-- /.col-lg-4 -->
+          
+          <div class="col-12 col-md-4 col-lg-4 ">
 
-                </div>
-                <div class="card__footer">
-                    <div class="card__actions">
-                        <button class="button">
-                            Ver Más
-                        </button>
-                    </div>
-                </div>
-            </div>
-            
-
-            <div class="card" style="background-image:url(media/img/textura-09.png);">
-
-                <div class="card__body">
-                    <h2 class="card__title">Tartas</h2>
-
-                </div>
-                <div class="card__footer">
-                    <div class="card__actions">
-                        <button class="button">
-                            Ver Más
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            
-            <div class="card" style="background-image:url(media/img/textura-10.png);">
-
-                <div class="card__body">
-                    <h2 class="card__title">Galletas</h2>
-
-                </div>
-                <div class="card__footer">
-                    <div class="card__actions">
-                        <button class="button">
-                            Ver Más
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="card" style="background-image:url(media/img/textura-11.png);">
-
-                <div class="card__body">
-                    <h2 class="card__title">Otros</h2>
-
-                </div>
-                <div class="card__footer">
-                    <div class="card__actions">
-                        <button class="button">
-                            Ver Más
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-<!-- inicio muestra productos "contenidoFrase  -->
-
-        <div class="contenidoFrase animate__animated animate__bounce">
-                <h1 class="contenidoSimpleTexto2">Esto es para hacer una animación</h1>  
-                <div class="animacion">  
-
-                    <div class="cuadrado rotate"><p class="Hola">Hola</p></div>
-                </div>
-        </div>        
-<!-- inicio muestra productos "contenidoSimple  -->
-        <div class="contenidoSimple">
-            
-                <h1 class="contenidoSimpleTexto">Los Favoritos imperdibles para endulzar tu día</h1>           
-        </div>
-<!-- inicio muestra productos "contenidoGridProducts  -->
-        <div class="contenidoGridProducts">
-                    <div class="box">                  
-                        <div class="caja__uno">
-                            <h2 class="caja__title">Torta1</h2>
-                        </div>
-                    </div>
-                    
-
-                    <div class="box">
-                        <div class="caja__dos">
-                            <h2 class="caja__title">Torta2</h2>
-                        </div>
-                    </div>
-
-
-                    <div class="box">
-                        <div class="caja__tres">
-                            <h2 class="caja__title">Torta3</h2>
-                        </div>
-                    </div>
-
-
-                    <div class="box">
-                        <div class="caja__cuatro">
-                            <h2 class="caja__title">Torta4</h2>
-                        </div>
-                    </div>
-
-
-                    
-        </div>
-    <!-- fin cajaGridIndex  -->
-       
-    </div>
-    <!-- fin contenido grid  -->
-
-
-    <div class="footer">
-        <div class="footerA"><img id="logofooter" src="media/img/logA.png" alt="logo a color" width="auto" height="96">
+            <h2>Venta a Empresas</h2>
+            <img src="./media/img/somos1.jpg" alt="Tortas"  class="img-fluid rounded-circle p-3"> 
+            <p class="text-white text-center">Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+            <hr class="featurette-divider bg-white mt-0 mb-4">
+          </div><!-- /.col-lg-4 -->
+        
+        </div><!-- /.row -->
+        <!-- /END THE FEATURETTES -->
+    
+      </div><!-- /.container -->
+    
+    
+    
+    </main><!-- contenido off  -->
+    
+    
+      
+      <div class="footer">
+        <div class="footerA">
+          <img
+            id="logofooter"
+            src="media/img/logA.png"
+            alt="logo a color"
+            width="auto"
+            height="96"
+          />
         </div>
         <div class="footerB">
-            <p>Reposteria Vegana llena de cariño y sueños de libertad <i class="fas fa-heart"></i></p>
+          <p>
+            Reposteria Vegana llena de cariño y sueños de libertad
+            <i class="fas fa-heart"></i>
+          </p>
         </div>
         <div class="footerC">
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/somos.html">Somos</a></li>
-                <li><a href="pages/productos2.html">Productos</a></li>
-                <li><a href="pages/como-comprar.html">Como Comprar</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
-                <li><a href="pages/paletaColores.html">Colores</a></li>
-                <li><a href="https://www.instagram.com/librecocinalibre/" target="_blank"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/librecocinalibre" target="_blank"> <i class="fab fa-facebook"></i></a></li>
-            </ul>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pages/somos.html">Somos</a></li>
+            <li><a href="pages/productos2.html">Productos</a></li>
+            <li><a href="pages/como-comprar.html">Como Comprar</a></li>
+            <li><a href="pages/contacto.html">Contacto</a></li>
+            <li><a href="pages/paletaColores.html">Colores</a></li>
+            <li>
+              <a
+                href="https://www.instagram.com/librecocinalibre/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i></a
+              ><a
+                href="https://www.facebook.com/librecocinalibre"
+                target="_blank"
+              >
+                <i class="fab fa-facebook"></i
+              ></a>
+            </li>
+          </ul>
         </div>
-        <div class="footerBar"><p> Hecho por <a href="https://rapasio.tumblr.com/" target="_blank" style="font-weight: bold;">Fersloc</a></p>
+        <div class="footerBar">
+          <p>
+            Hecho por
+            <a
+              href="https://rapasio.tumblr.com/"
+              target="_blank"
+              style="font-weight: bold"
+              >Fersloc</a
+            >
+          </p>
         </div>
-    </div>
+      </div>
 
 
-<script src="assets/js/wow.min.js"></script>
-<script>new WOW().init();</script>
+    
 
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
 
+    <!--<script src="assets/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>-->
+  </body>
 </html>
